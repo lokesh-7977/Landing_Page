@@ -1,0 +1,76 @@
+body{
+    
+        background: #FFCD9E;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-top: 80px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 0;
+    color: black;
+}
+.parasmall{
+    font-size: medium;
+    font-weight: 700;
+}
+#input-mail {
+    width:300px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#subbtn {
+    width: 200px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+}
+#plast{
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    padding-left: 50px;
+    position: absolute;
+}
+img {
+    margin-right: 30px;
+    margin-top: -6px;
+    float: right;
+    width: 400px ;
+    height: 450px;
+    position: relative;
+}
+.main{
+    margin: 70px 140px 160px 180px;
+    background: #FFCD9E;
+}
+li{
+   
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    
+    background:black;
+    padding: 3%;
+    color:white;
+}
+i {
+    margin: 5px;
+}
+.left {
+    float: left;
+    width: 73%;
+}
