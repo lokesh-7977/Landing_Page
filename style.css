@@ -1,76 +1,91 @@
 body{
-    
-        background: #FFCD9E;
-}
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 2em;
-    padding-top: 80px;
-}
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 0;
-    color: black;
-}
-.parasmall{
-    font-size: medium;
-    font-weight: 700;
-}
-#input-mail {
-    width:300px;
-    height: 60px;
-    text-align: center;
-    border: 3px solid black;
-    font-weight: 700;
-    margin-top: 15px;
-}
-
-#subbtn {
-    width: 200px;
-    height: 70px;
-    border: 1px solid black;
-    border-radius: 7px;
-    color: white;
-    font-weight: 700;
-    background-color: black;
-}
-#plast{
-    font-size: medium;
-    font-weight: 600;
-    color: white;
-    padding-left: 50px;
-    position: absolute;
-}
-img {
-    margin-right: 30px;
-    margin-top: -6px;
-    float: right;
-    width: 400px ;
-    height: 450px;
-    position: relative;
-}
-.main{
-    margin: 70px 140px 160px 180px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
     background: #FFCD9E;
+    display: flexbox;
 }
-li{
-   
-    list-style: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header{
+    background: #FFCD9E;
+    height: 550px;
 }
 
-.footer{
-    
-    background:black;
-    padding: 3%;
-    color:white;
+img{
+    width:440px;
+    height:420px;
+    float: right;
+    margin-right: 180px;
+    padding-top: 70px;
+ 
 }
-i {
-    margin: 5px;
+
+h1{
+    padding-top: 80px;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 120px;
+   
 }
-.left {
-    float: left;
-    width: 73%;
+.para {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 120px;
+}
+
+.tag {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 120px;
+    text-align: center;
+    border-radius: 6px;
+}
+button {
+    width: 310px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+}
+.bold{
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    margin-left: 150px;
+}
+.footer {
+    height: 240px;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+}
+.f-right {
+    padding-top: 70px;
+    padding-left: 200px;
+    font-size: large;
+
+}
+.f-left {
+    padding-top: 45px;
+    float:right;
+    margin-right: 380px;
+    font-size: large;
+}
+
+li{
+    list-style-type: none;
+}
+
+i{
+    margin-top: 5px;
+    margin: 2px;
+    color: #FFCD9E;
 }
